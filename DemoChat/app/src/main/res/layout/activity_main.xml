@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    /*
+    - Cứ design thoải mái. Nhưng mà giữ đủ 5 cái sau:
+    1. Một cái EditText.    Đặt id là: editText_Message
+    2. Một cái ListView.    Đặt id là: listView_Online
+    3. Một cái ListView.    Đặt id là: listView_Chat
+    4. Một cái Button.      Đặt id là: btn_Send
+    5. Một cái ImageButton. Đặt id là: btn_More
+
+    - Phải có đủ 5 cái trên với Id giống y chang như trên, giống cả Hoa với Thường luôn.
+    Còn lại có thể thêm, tùy biến, thay đổi màu sắc các kiểu. Thích làm gì làm :v
+    */
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:weightSum="9"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="8"
+            android:orientation="horizontal"
+            android:weightSum="3">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/online_list_background"
+                android:layout_weight="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="@string/txtOnline"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <ListView
+                    android:id="@+id/listView_Online"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:transcriptMode="alwaysScroll" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/online_list_background"
+                android:layout_weight="2">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:text="@string/txtCTC"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+                <ListView
+                    android:id="@+id/listView_Chat"
+                    android:transcriptMode="alwaysScroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@drawable/online_list_background"
+            android:orientation="horizontal"
+            android:weightSum="5">
+            <EditText
+                android:id="@+id/editText_Message"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/online_list_background"
+                android:gravity="bottom"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingBottom="4dp"
+                android:layout_weight="4"
+                android:inputType="textAutoComplete"/>
+
+            <Button
+                android:id="@+id/btn_Send"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:text="@string/btnGui"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top">
+        <ImageButton
+            android:id="@+id/btn_More"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/icon_more"
+            android:backgroundTint="@color/colorPrimaryDark"/>
+    </FrameLayout>
+
+</FrameLayout>

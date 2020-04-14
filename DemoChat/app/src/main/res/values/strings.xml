@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="hintNhapten">Enter name</string>
+    <string name="btnDangxuat">Log out</string>
+    <string name="btn_Login">Accomplished</string>
+    <string name="txtText">Enter your first name</string>
+    <string name="txtTuychon">Option</string>
+    <string name="txtOnline">Online</string>
+    <string name="txtCTC">Conversation</string>
+    <string name="btnGui">Send</string>
+    <string name="btnInterfaceChange">Change Interface</string>
+    <string name="btnBlack">Black</string>
+    <string name="btnWhite">White</string>
+    <string name="btnChoiGame">Room Chat 2.5D</string>
+    <string name="btnGameCaro">Game Caro</string>
+    <string name="tv_English">English</string>
+    <string name="tv_Vietnamese">Vietnamese</string>
+    <string name="tv_French">French</string>
+</resources>

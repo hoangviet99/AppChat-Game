@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:padding="4dp"
+    android:layout_width="350dp"
+    android:background="#FFF"
+    android:layout_height="wrap_content">
+    <EditText
+        android:id="@+id/editText_Chat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textAutoComplete"
+        android:background="@drawable/drawable_talkingbackground"
+        android:padding="4dp"/>
+    <Button
+        android:id="@+id/btn_Send"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/btn_chat"/>
+</LinearLayout>

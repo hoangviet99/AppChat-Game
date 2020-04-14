@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="hintNhapten">Nhập Tên</string>
+    <string name="btn_Login">Xong</string>
+    <string name="txtText">Nhập tên của bạn</string>
+    <string name="txtTuychon">Tùy chọn</string>
+    <string name="btnDangxuat">Đăng xuất</string>
+    <string name="btnChoiGame">Phòng trò chuyện 2.5D</string>
+    <string name="txtOnline">Đang Online</string>
+    <string name="txtCTC">Cuộc Trò Chuyện</string>
+    <string name="btnGui">Gửi</string>
+    <string name="tv_English">Tiếng Anh</string>
+    <string name="tv_French">Tiếng Pháp</string>
+    <string name="tv_Vietnamese">Tiếng Việt</string>
+    <string name="btnInterfaceChange">Đổi giao diện chat</string>
+    <string name="btnGameCaro">Chơi Caro</string>
+    <string name="btnWhite">Trắng</string>
+    <string name="btnBlack">Đen</string>
+</resources>

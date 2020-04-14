@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Chat</string>
+    <string name="btnDangxuat">Déconnexion</string>
+    <string name="btn_Login">Tout est fait</string>
+    <string name="hintNhapten">Entrez un nom</string>
+    <string name="txtText">Entrez votre prénom</string>
+    <string name="txtOnline">En ligne</string>
+    <string name="txtCTC">Conversation</string>
+    <string name="btnGui">Envoyer</string>
+    <string name="btnChoiGame">Chat en salle 2.5D</string>
+    <string name="txtTuychon">Facultatif</string>
+    <string name="tv_French">Française</string>
+    <string name="tv_English">Anglais</string>
+    <string name="tv_Vietnamese">Vietnamienne</string>
+    <string name="btnInterfaceChange">Changer d\'interface</string>
+    <string name="btnGameCaro">Jeux de Caro</string>
+    <string name="btnWhite">Blanc</string>
+    <string name="btnBlack">Noir</string>
+</resources>
